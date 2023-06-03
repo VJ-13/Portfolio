@@ -30,8 +30,8 @@ export default function ExperienceCard({}: Props) {
             <p className='uppercase py-5 text-gray-300'>May 2023 - Present</p>
 
             <ul className='list-disc space-y-4 ml-5 text-lg'>
-                <li>Collaborated with a team of 2 other students to develop a Flutter-based mobile app that offers comprehensive information about Hamilton\'s green spaces and conservation areas</li>
-                <li>Funded by the McMaster Natural Resources Group to build the app for the students at McMaster</li>
+                <li>{"Collaborated with a team of 2 other students to develop a Flutter-based mobile app that offers comprehensive information about Hamilton\'s green spaces and conservation areas"}</li>
+                <li>{"Funded by the McMaster Natural Resources Group to build the app for the students at McMaster"}</li>
             </ul>
         </div>
     </article>

@@ -30,8 +30,8 @@ export default function ExperienceCard({}: Props) {
             <p className='uppercase py-5 text-gray-300'>Oct 2021 - Jan 2022</p>
 
             <ul className='list-disc space-y-4 ml-5 text-lg'>
-                <li>Successfully led a team of 4 computer science students in the development of an autonomous robot</li>
-                <li>Designed and built the robot\'s software using Python, Arduino, and ultrasonic sensors</li>
+                <li>{"Successfully led a team of 4 computer science students in the development of an autonomous robot"}</li>
+                <li>{"Designed and built the robot\'s software using Python, Arduino, and ultrasonic sensors"}</li>
             </ul>
         </div>
     </article>
