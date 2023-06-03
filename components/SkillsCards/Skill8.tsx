@@ -13,7 +13,7 @@ export default function Skill({directionLeft}: Props) {
             transition={{duration: 1.5}}
             whileInView={{opacity: 1, x: 0}}
             viewport={{once: true}}
-            src="https://previews.dropbox.com/p/thumb/AB43ic-Y2BnA51ssJ1KZbxBUV1QvcfSryBWANLiDYubTUT_jhYIqTNtGBAlOo2iPJ73u7Me0y5VD3VFeYFBh6SP9QYf1JIcyoxwBT6JHzs46Ll6jtVzCixlPX65Y4dxeYOHLVkG_joqWJ6bkQqpY8VJbQluqd5bhglVPeX3RT_xTOdBePDaYubonqCCnYDPVK3tj-cmzziqi3rf53kgCp88MwlTfTF1T7PN_UXVXEhBbqoqtB0fWAMSNrpTvaInYoJasq-x2gZEna0fmjOv_pFkl2Bjp-ZCxj8yHvX661DMb7eKn5F_SZ5iuTrtIktX_Zynt6wXzS200ZzPilRqUS1sMFxzgv-76MhZC7d6ombo4czwErB5iYiEbZZa7y24Jjpo/p.png" 
+            src="https://i.pinimg.com/564x/65/f2/df/65f2dfb23f177efc90de85366223172f.jpg" 
             className='rounded-full border border-gray-500 object-cover w-24 h-24 md:w-28 md:h-28 xl:w-30 xl:h-30 filter
                        group-hover:grayscale transition duration-300 ease-in-out bg-white'
         />

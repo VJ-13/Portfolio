@@ -16,7 +16,7 @@ export default function About({}: Props) {
             transition={{duration: 1.5}}
             whileInView={{x: 0, opacity: 1}}
             viewport={{once: true}}
-            src="https://previews.dropbox.com/p/thumb/AB6wC14gki_nezC1pmsQ_2W0htAYmGfNUWn3i3VDSOPZcgrMmFqzbunt0EBsv7vS0axieUa7Gs1ezs08LgCerQfSNYtYcV5XV5vPTaPPYTcJ4e23NzP61BZdq55016piHjoBF4rt7WeByB2NRIzOU4z2z4J2X8g3QLdr5JA4K0YcbLl9SGVrC-9RWemIcCY4fAv7BUCSTp_pvHzxw5voft9kjzNDTswECJn1MV8jOWPl_2xkl9A3EBubW7rq9HX4YvbnnD_ab0wnV37vWta58kJXu8jlwJhC8HyHJuDdJpXvQPD1vKcFAn29iNDW-C9YlwMxihaDJmCL2shhQhJsIbT4vrkuMrTlWwhli-rvQopmDUrkdXG8R1Stl9jNAP1CjZo/p.jpeg"
+            src="https://i.pinimg.com/564x/18/5a/77/185a77e61245a6192221afce9a2b7f15.jpg"
             className='relative -mb-20 md:mb-50 flex-shrink-0 w-56 h-56 rounded-full object-cover object-top md:rounded-lg md:w-64 md:h-96 xl:w-[300px] xl:h-700px]] sm:p-3'
         />
         <div className=' px-0 md:px-10'>

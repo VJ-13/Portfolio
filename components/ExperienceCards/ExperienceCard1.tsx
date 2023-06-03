@@ -16,7 +16,7 @@ export default function ExperienceCard({}: Props) {
             whileInView={{opacity: 1, y: 0}}
             viewport={{once: true}}
             className='w-32 h-32 rounded-full object-cover'
-            src="https://previews.dropbox.com/p/thumb/AB40pUNqtaQ65FFXmE87yCIYxha6q7l2TJGWTfhuCjkLv2QItEXd71WMBmLp0ejVhIXhxnAyWvy0AACy9KP_JMEOcDMZd9NVeXSFP7USTfv45dt99vG2BP8VsCtPDjMNkIMP9ckQkZf-ltSg94z87vrPriTjgZhsh9vMCOTuue5nD-6TMGDKegkjfP6TNIchWwO1MxUcieoh2O76l2c5enCWnehBfwXyCoSLP2XOuwFYGqMv5V_aKt6Vu_1V9uGqArkeo2hJw_ZgjqhUaOXsbkzVWwFAwOBnOUfWY8IjzZe54VwL_VIwhuNn0yg7sJMAuKCG360Fp7pRIpGs-HkduXOgYcfav-9RSU1SfepAHq4bLFdhpAKHBXYmRJTrEiXzc8s/p.png" 
+            src="https://i.pinimg.com/564x/1c/7e/4d/1c7e4db1dd8ad05154bb8b1f0dc4e2c0.jpg" 
             alt="" 
         />
 
