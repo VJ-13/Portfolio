@@ -22,7 +22,7 @@ export default function About({}: Props) {
         <div className=' px-0 md:px-10'>
             <h4 className='text-4xl font-semibold xl:p-7 md:p-2 sm:p-2 '>Here is a <span className='underline decoration-[#00B8EA]/50'>little</span> background about me</h4>
             <p className='xl:p-3 md:p-2 sm:p-1 sm:text-left'>
-              Hello! I'm Virendra, a third-year computer science student at McMaster University. I'm passionate about technology and its potential to make a positive impact. 
+              Hello! I\'m Virendra, a third-year computer science student at McMaster University. I\'m passionate about technology and its potential to make a positive impact. 
             </p>
             
             <p className='xl:p-3 md:p-2 sm:p-1 sm:text-left'>
