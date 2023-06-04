@@ -83,8 +83,8 @@ function Projects({}: Props) {
 
                     {/* Button */}
                     <div className='flex items-center justify-center '>
-                        <Button href={demoLink} variant="outlined" className='projectButton'>Demo</Button>
-                        <Button href={codeLink} variant="outlined" className='projectButton'>Code</Button>
+                        <Button href={demoLink} variant="outlined" className='heroButton'>Demo</Button>
+                        <Button href={codeLink} variant="outlined" className='heroButton'>Code</Button>
                     </div>
 
 
