@@ -18,19 +18,19 @@ export default function Header({ }: Props) {
                 {/* Social Icons */}
                 <Tooltip title="Linkedin" arrow enterDelay={500} leaveDelay={200}>
                     <IconButton>
-                        <SocialIcon url="https://www.linkedin.com/in/virendra-jethra" fgColor='gray' bgColor='transparent' />
+                        <SocialIcon url="https://www.linkedin.com/in/virendra-jethra" fgColor='gray' bgColor='transparent'  className='hover:scale-105'/>
                     </IconButton>
                 </Tooltip>
                 <Tooltip title="Github" arrow enterDelay={500} leaveDelay={200}>
                     <IconButton>
-                        <SocialIcon url="https://github.com/VJ-13" fgColor='gray' bgColor='transparent' />
+                        <SocialIcon url="https://github.com/VJ-13" fgColor='gray' bgColor='transparent' className='hover:scale-105'/>
                     </IconButton>
                 </Tooltip>
 
                 <Tooltip title="Resume" arrow enterDelay={500} leaveDelay={200}>
                     <IconButton>
                         <a href="/resume.pdf" download={true}>
-                        <ContactPageOutlinedIcon sx={{ color: grey[600], fontSize: 30 }}/>
+                        <ContactPageOutlinedIcon sx={{ color: grey[600], fontSize: 30 }} className='hover:scale-105'/>
                         </a>
                     </IconButton>
                 </Tooltip>
@@ -43,14 +43,14 @@ export default function Header({ }: Props) {
                 transition={{ duration: 1.5 }}
                 className='flex flex-row items-center text-gray-300 cursor-pointer'>
                 <SocialIcon
-                    className="cursor-pointer"
+                    className="cursor-pointer hover:scale-105"
                     network="email"
                     fgColor="gray"
                     bgColor="transparent"
                     url="#contact"
                 />
                 <a href="#contact">
-                    <p className="uppercase hidden md:inline-flex text-sm text-gray-400"> Get In Touch </p>
+                    <p className="uppercase hidden md:inline-flex text-sm text-gray-400 hover:scale-105"> Get In Touch </p>
                 </a>
             </motion.div>
         </header>

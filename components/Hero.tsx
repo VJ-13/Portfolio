@@ -2,7 +2,7 @@ import React from 'react'
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import BackgroundCircles from './BackgroundCircles'
 import Image from 'next/image'
-import VJLogo from '../public/images/VJLogo.png'
+import VJLogo from '../public/images/3.jpg'
 
 type Props = {}
 export default function Hero({ }: Props) {
