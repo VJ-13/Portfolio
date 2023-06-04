@@ -83,7 +83,6 @@ function Projects({}: Props) {
 
                     <div className='flex items-center justify-center '>
                         <Button href={demoLink} variant="outlined" className=' inherit w-60 px-16 m-8 heroButton z-20 text-white border border-white'>Demo</Button>
-                        <Button href={codeLink} variant="outlined" className=' inherit w-60 px-16 m-8 heroButton z-20 text-white border border-white'>Code</Button>
                     </div>
 
 
