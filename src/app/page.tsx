@@ -7,20 +7,26 @@ import WorkExperience from '../../components/WorkExperience';
 import Skills from '../../components/Skills';
 import Projects from '../../components/Projects';
 import ContactMe from '../../components/ContactMe';
+import { Helmet } from 'react-helmet';
 
 export default function Home() {
 
   return (
     <div className='bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#00B8EA]/80'>
       <Head>
-        <title>Virendras Portfolio</title>
+        <Helmet>
+            <meta charSet="utf-8" />
+            <title>{"Virendra's Portfolio"}</title>
+            <link rel="canonical" href="http://mysite.com/example" />
+            <meta name="description" content="Virendra's Portfolio" />
+          </Helmet>
       </Head>
+
 
       {/* Header */}
       <Header />
 
       {/* Hero */}
-
       <section id='hero' className='snap-start'>
         <Hero />
       </section>
