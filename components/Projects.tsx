@@ -1,5 +1,4 @@
 import React from 'react'
-import { Button } from '@mui/material'
 import { motion } from 'framer-motion'
 
 type Props = {}
@@ -83,8 +82,12 @@ function Projects({}: Props) {
 
                     {/* Button */}
                     <div className='flex items-center justify-center '>
-                        <Button href={demoLink} variant="outlined" className='heroButton'>Demo</Button>
-                        <Button href={codeLink} variant="outlined" className='heroButton'>Code</Button>
+                        <a href={demoLink}>
+                            <button className='projectButton'>Demo</button>
+                        </a>
+                        <a href={codeLink}>
+                            <button className='projectButton'>Code</button>
+                        </a>
                     </div>
 
 
