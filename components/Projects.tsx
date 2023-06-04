@@ -80,11 +80,11 @@ function Projects({}: Props) {
                         <h4 className='text-4xl font-medium text-center pt-2  '>{name}</h4>
                         <p className='text-lg text-center sm:text-left md:text-left'> {description} </p>
                     </div>
-                    
+
                     {/* Button */}
                     <div className='flex items-center justify-center '>
-                        <Button href={demoLink} variant="outlined" className='w-60 px-16 m-8 heroButton z-20 text-white border border-white'>Demo</Button>
-                        <Button href={codeLink} variant="outlined" className='w-60 px-16 m-8 heroButton z-20 text-white border border-white'>Code</Button>
+                        <Button href={demoLink} variant="outlined" className='projectButton'>Demo</Button>
+                        <Button href={codeLink} variant="outlined" className='projectButton'>Code</Button>
                     </div>
 
 
