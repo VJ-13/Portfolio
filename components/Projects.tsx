@@ -21,7 +21,7 @@ function Projects({}: Props) {
             name: "Document Scanner",
             description: "This project utilizes OpenCV to implement a document-scanning application. It includes various image processing techniques such as thresholding and edge detection to identify the document boundaries accurately. The code captures images from a webcam or loads an image from a file, and then applies image processing operations to detect and extract the document. The user can save the image and use the OCR feature to extract text from the document.",
             codeLink: "https://github.com/VJ-13/DocumentScanner",
-            demoLink: "https://github.com/VJ-13/DocumentScanner"
+            demoLink: "https://youtu.be/neeH0toqtmY"
         },
         {
             // To-do List
@@ -48,7 +48,7 @@ function Projects({}: Props) {
             name: "Connect Four",
             description: "The Connect Four game was created using Java and object-oriented programming principles. In addition to the traditional two-player game mode, an AI player was also implemented. The AI player has the ability to both defend against the player's potential wins and also make strategic moves to try and win the game. The AI player's decision making process was implemented using a combination of logical statements and randomization. ",
             codeLink: "https://github.com/VJ-13/ConnectFour",
-            demoLink: "https://github.com/VJ-13/ConnectFour"
+            demoLink: "https://youtu.be/PmSeTTZY2w8"
         },
     ]
 
