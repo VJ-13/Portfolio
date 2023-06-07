@@ -16,7 +16,7 @@ export default function Hero({ }: Props) {
     const handleClick = () => setClick(!click)
     const closeMenu = () => setClick(false)
     return (
-        <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center
+        <div className='h-screen flex flex-col space-y-6 items-center justify-center text-center
          overflow-hidden'>
             <BackgroundCircles />
             <Image className=' relative rounded-full h-36 w-36 mx-auto object-cover'

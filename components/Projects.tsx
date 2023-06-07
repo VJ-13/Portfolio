@@ -61,8 +61,8 @@ function Projects({}: Props) {
         className='h-screen relative flex overflow-hidden flex-col text-left justify-evenly md:flex-row max-w-full mx-auto items-center z-0 '>
 
         {/* Title */}
-        <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl my-auto'>Projects</h3>
-        <h3 className='absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm'>Scroll for more projects </h3>
+        <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl my-auto xl:top-24 lg:top-24 md:top-20 sm:top-[80px] '>Projects</h3>
+        <h3 className='absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm xl:top-36 lg:top-36 md:top-[120px] sm:top-[115px]'>Scroll for more projects </h3>
 
         <div className=' w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 pt-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#00B8EA]/80'>
             {/* Project Cards */}
