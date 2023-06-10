@@ -21,7 +21,7 @@ export default function ExperienceCard({}: Props) {
         />
 
         <div className='px-0 md:px-10 '>
-            <h4 className='text-4xl font-light'>Software Developer</h4>
+            <h4 className='text-4xl font-light'>Mobile App Developer</h4>
             <p className='font-bold text-2xl mt-1'>McMaster Natural Resources Group</p>
             <div className='flex space-x-2 my-2'>
                 <Image className='h-10 w-10 rounded-full' src={Flutter} alt="" />
