@@ -33,7 +33,7 @@ export default function About({}: Props) {
             </p>
 
             <p className='xl:p-3 md:p-2 sm:p-1 sm:text-left'>
-              {"I am currently seeking a co-op position for Fall 2023. If you are interested in working with me, please feel free to reach out to me via email or LinkedIn. I look forward to connecting with you!"}
+              {"I am currently seeking a co-op position for Summer 2024. If you are interested in working with me, please feel free to reach out to me via email or LinkedIn. I look forward to connecting with you!"}
             </p>
         </div>
         
