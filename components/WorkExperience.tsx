@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import ExperienceCard1 from './ExperienceCards/ExperienceCard1'
 import ExperienceCard2 from './ExperienceCards/ExperienceCard2'
 import ExperienceCard3 from './ExperienceCards/ExperienceCard3'
+import ExperienceCard4 from './ExperienceCards/ExperienceCard4'
 
 type Props = {}
 
@@ -17,10 +18,11 @@ export default function WorkExperience({}: Props) {
             Experience
         </h3>
 
-        <div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar-track-gray-400/20 scrollbar-thumb-[#00B8EA]/80 scrollbar-thin'>
+        <div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar-track-gray-400/20 scrollbar-thumb-[#00B8EA]/80 scrollbar'>
             {/* ExperienceCards */}
             <ExperienceCard1 />
             <ExperienceCard2 />
+            <ExperienceCard4 />
             <ExperienceCard3 />
         </div>
     </motion.div>
