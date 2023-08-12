@@ -23,7 +23,7 @@ export default function ExperienceCard({}: Props) {
             <h4 className='text-4xl font-light'>Teacher Assistant</h4>
             <p className='font-bold text-2xl mt-1'>McMaster University - Intro to Programming</p>
             <div className='flex space-x-2 my-2'>
-                <Image className='h-10 w-10 rounded-full' src={Python} alt="" />
+                <Image className='h-10 w-10 rounded-full bg-white' src={Python} alt="" />
             </div>
             <p className='uppercase py-5 text-gray-300'>Jan 2023 - May 2023</p>
 
