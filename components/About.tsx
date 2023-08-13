@@ -25,7 +25,7 @@ export default function About({}: Props) {
             </p>
             
             <p className='xl:p-3 md:p-2 sm:p-1 sm:text-left'>
-              {"Throughout my academic journey, I have explored various programming languages and concepts, constantly challenging myself to expand my critical thinking and programming skills. In a rewarding internship at GAOTek, I contributed to the development of a BLE beacon detection app. Furthermore, I enriched my experience by serving as a Teaching Assistant for a fundamental Python course, where I provided personalized guidance to students and streamlined the grading process, enhancing the overall learning experience."}
+              {"Throughout my academic journey, I have explored various programming languages and concepts, constantly challenging myself to expand my critical thinking and programming skills. In a rewarding internship at GAOTek, I contributed to the development of a BLE beacon detection app. Furthermore, I enriched my experience by serving as a Teaching Assistant for a fundamental Python course, where I provided personalized guidance to students and streamlined the grading process."}
             </p>
 
             <p className='xl:p-3 md:p-2 sm:p-1 sm:text-left'>
