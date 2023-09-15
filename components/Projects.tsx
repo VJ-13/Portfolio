@@ -6,8 +6,17 @@ type Props = {}
 function Projects({}: Props) {
     const projects = [
         {
-            // MacChanger Green Go
+            // Chat App
             id: 1,
+            src: "https://i.pinimg.com/originals/f3/27/5b/f3275b8d97a3938da106a9cf20bda725.png",
+            name: "Chat-App",
+            description: "This dynamic Full Stack MERN Chat App leverages NodeJS, React, MongoDB, Express, NextJS, and Socket.io to deliver seamless real-time communication. Employing Express and Cors, it ensures robust client-server connectivity. The backend relies on MongoDB for secure user data and message storage, fostering reliable sender-receiver interactions. The application's crown jewel lies in the integration of Socket.io, which facilitates instantaneous message delivery, creating a truly immersive real-time interaction environment.",
+            codeLink: "https://github.com/VJ-13/Chat-App",
+            demoLink: "https://vj-chat-app.vercel.app"
+        },
+        {
+            // MacChanger Green Go
+            id: 2,
             src: "https://i.pinimg.com/originals/52/b5/b0/52b5b00de666c08dd99264204c73a659.png",
             name: "MacChanger Green Go",
             description: "This is mobile app that is developed using Flutter. The app provides detailed information on the location, amenities, and accessibility of nearby green spaces and conservation areas in Hamilton, making it easier for students to plan their visits. It includes features like recommending a green space based on the user input such as activities and type of the place (like forest or lake), transportation method and how crowded is the place.",
@@ -16,7 +25,7 @@ function Projects({}: Props) {
         },
         {
             // PasteBin
-            id: 2,
+            id: 3,
             src: "https://user-images.githubusercontent.com/64769412/257989253-acca11e0-d91b-4d51-94c9-cb7705a08db5.png",
             name: "PasteBin (HasteBin Clone)",
             description: "PasteBin is a lightweight and efficient web application, developed in NodeJS using Express and EJS, designed to mimic the popular HasteBin platform. The primary objective of this project is to provide users with a secure and user-friendly platform to share and store code snippets or text content with ease.",
@@ -24,22 +33,22 @@ function Projects({}: Props) {
             demoLink: "https://paste-bin.cyclic.app"
         },
         {
-            // Url Shortener
-            id: 3,
-            src: "https://user-images.githubusercontent.com/64769412/257989365-d29e7547-018f-4490-8fb2-c0c8195b3c29.png",
-            name: "Url Shrinker",
-            description: "The URL-Shrinker is a dynamic and efficient web application built with Node.js, Express, and MongoDB, designed to provide users with a simple and secure way to shorten long URLs. This website showcases my proficiency in managing data and seamlessly integrating it into a functional web interface.",
-            codeLink: "https://github.com/VJ-13/UrlShrinker",
-            demoLink: "https://url-shrinker-3773.onrender.com"
-        },
-        {
             // Document Scanner
-            id: 4,
+            id: 3,
             src: "https://i.pinimg.com/564x/35/4a/c2/354ac210d8fe73d160298d021d0b2905.jpg",
             name: "Document Scanner",
             description: "This project utilizes OpenCV to implement a document-scanning application. It includes various image processing techniques such as thresholding and edge detection to identify the document boundaries accurately. The code captures images from a webcam or loads an image from a file, and then applies image processing operations to detect and extract the document. The user can save the image and use the OCR feature to extract text from the document.",
             codeLink: "https://github.com/VJ-13/DocumentScanner",
             demoLink: "https://youtu.be/neeH0toqtmY"
+        },
+        {
+            // Url Shortener
+            id: 4,
+            src: "https://user-images.githubusercontent.com/64769412/257989365-d29e7547-018f-4490-8fb2-c0c8195b3c29.png",
+            name: "Url Shrinker",
+            description: "The URL-Shrinker is a dynamic and efficient web application built with Node.js, Express, and MongoDB, designed to provide users with a simple and secure way to shorten long URLs. This website showcases my proficiency in managing data and seamlessly integrating it into a functional web interface.",
+            codeLink: "https://github.com/VJ-13/UrlShrinker",
+            demoLink: "https://url-shrinker-3773.onrender.com"
         },
         {
             // To-do List
