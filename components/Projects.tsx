@@ -10,7 +10,7 @@ function Projects({}: Props) {
             id: 1,
             src: "https://i.pinimg.com/originals/f3/27/5b/f3275b8d97a3938da106a9cf20bda725.png",
             name: "Chat-App",
-            description: "This dynamic Full Stack MERN Chat App leverages NodeJS, React, MongoDB, Express, NextJS, and Socket.io to deliver seamless real-time communication. Employing Express and Cors, it ensures robust client-server connectivity. The backend relies on MongoDB for secure user data and message storage, fostering reliable sender-receiver interactions. The application's crown jewel lies in the integration of Socket.io, which facilitates instantaneous message delivery, creating a truly immersive real-time interaction environment.",
+            description: "This dynamic Full Stack MERN Chat App leverages NodeJS, React, MongoDB, Express, NextJS, and Socket.io to deliver seamless real-time communication. Employing Express and Cors, it ensures robust client-server connectivity.",
             codeLink: "https://github.com/VJ-13/Chat-App",
             demoLink: "https://vj-chat-app.vercel.app"
         },
