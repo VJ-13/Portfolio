@@ -10,7 +10,7 @@ function Projects({}: Props) {
             id: 1,
             src: "https://i.pinimg.com/originals/f3/27/5b/f3275b8d97a3938da106a9cf20bda725.png",
             name: "Chat-App",
-            description: "This dynamic Full Stack MERN Chat App leverages NodeJS, React, MongoDB, Express, NextJS, and Socket.io to deliver seamless real-time communication. Employing Express and Cors, it ensures robust client-server connectivity.",
+            description: "This dynamic Full Stack MERN Chat App leverages NodeJS, React, MongoDB, Express, NextJS, and Socket.io to deliver seamless real-time communication. Employing Express and Cors, it ensures robust client-server connectivity. To easily access the chat app, login in with any username: { admin1, admin2, test1, test2} and the passwords is \"Tvs#omF59f7p\" ",
             codeLink: "https://github.com/VJ-13/Chat-App",
             demoLink: "https://vj-chat-app.vercel.app"
         },
