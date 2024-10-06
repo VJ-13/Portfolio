@@ -20,10 +20,10 @@ export default function WorkExperience({}: Props) {
 
         <div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar-track-gray-400/20 scrollbar-thumb-[#00B8EA]/80 scrollbar'>
             {/* ExperienceCards */}
-            <ExperienceCard1 />
-            <ExperienceCard2 />
-            <ExperienceCard4 />
             <ExperienceCard3 />
+            <ExperienceCard4 />
+            <ExperienceCard2 />
+            <ExperienceCard1 />
         </div>
     </motion.div>
   )

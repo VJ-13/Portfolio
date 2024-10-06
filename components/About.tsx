@@ -21,19 +21,19 @@ export default function About({}: Props) {
         <div className=' px-0 md:px-10'>
             <h4 className='text-4xl font-semibold xl:p-7 md:p-2 sm:p-2 '>Here is a <span className='underline decoration-[#00B8EA]/50'>little</span> background about me</h4>
             <p className='xl:p-3 md:p-2 sm:p-1 sm:text-left'>
-              {"Hello! I\'m Virendra, a third-year computer science student at McMaster University. I\'m passionate about technology and its potential to make a positive impact."} 
+              {"Hello! I\'m Virendra, a fourth-year computer science student at McMaster University. I\'m passionate about technology and its potential to make a positive impact."} 
             </p>
             
             <p className='xl:p-3 md:p-2 sm:p-1 sm:text-left'>
-              {"Throughout my academic journey, I have explored various programming languages and concepts, constantly challenging myself to expand my critical thinking and programming skills. In a rewarding internship at GAOTek, I contributed to the development of a BLE beacon detection app. Furthermore, I enriched my experience by serving as a Teaching Assistant for a fundamental Python course, where I provided personalized guidance to students and streamlined the grading process."}
+              {"Throughout my academic journey, I\'ve developed strong programming skills and tackled complex challenges. At TC Energy, I improved data processing and streamlined workflows for the Project Systems & Tools team. My work at DorsalAI involved deploying a React-based website to facilitate 10K and 10Q report searches, enhancing my technical expertise. As a Teaching Assistant for Python, I supported students and optimized grading, contributing to a more effective learning environment."}
             </p>
 
             <p className='xl:p-3 md:p-2 sm:p-1 sm:text-left'>
-              {"Beyond the realm of computer science, I have a strong passion for supporting and mentoring children. I have been a swimming instructor, a tutor during Covid-19, and a camp counselor."}
+              {"Beyond the realm of computer science, I have a strong passion for supporting and mentoring children. I have served as a swimming instructor, a tutor during pandemic, and a camp counselor."}
             </p>
 
             <p className='xl:p-3 md:p-2 sm:p-1 sm:text-left'>
-              {"I am currently seeking a co-op position for Summer 2024. If you are interested in working with me, please feel free to reach out to me via email or LinkedIn. I look forward to connecting with you!"}
+              {"I am currently seeking a new grad position where I can apply my skills and enthusiasm to drive meaningful contributions. Feel free to reach out to me via email - I look forward to connecting!"}
             </p>
         </div>
         
