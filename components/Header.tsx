@@ -18,12 +18,12 @@ export default function Header({ }: Props) {
                 {/* Social Icons */}
                 <Tooltip title="Linkedin" arrow enterDelay={500} leaveDelay={200}>
                     <IconButton>
-                        <SocialIcon url="https://www.linkedin.com/in/virendra-jethra" fgColor='gray' bgColor='transparent'  className='hover:scale-105'/>
+                        <SocialIcon url="https://www.linkedin.com/in/virendra-jethra" fgColor='gray' bgColor='transparent'  className='hover:scale-105' target="_blank" rel="noopener noreferrer"/>
                     </IconButton>
                 </Tooltip>
                 <Tooltip title="Github" arrow enterDelay={500} leaveDelay={200}>
                     <IconButton>
-                        <SocialIcon url="https://github.com/VJ-13" fgColor='gray' bgColor='transparent' className='hover:scale-105'/>
+                        <SocialIcon url="https://github.com/VJ-13" fgColor='gray' bgColor='transparent' className='hover:scale-105' target="_blank" rel="noopener noreferrer"/>
                     </IconButton>
                 </Tooltip>
 

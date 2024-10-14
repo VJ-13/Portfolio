@@ -135,10 +135,10 @@ function Projects({}: Props) {
 
                             {/* Buttons for demo, code */}
                             <div className='flex items-center justify-center space-x-4'>
-                                <a href={demoLink}>
+                                <a href={demoLink} target="_blank" rel="noopener noreferrer">
                                     <button className='projectButton'>Demo</button>
                                 </a>
-                                <a href={codeLink}>
+                                <a href={codeLink} target="_blank" rel="noopener noreferrer">
                                     <button className='projectButton'>Code</button>
                                 </a>
                             </div>
