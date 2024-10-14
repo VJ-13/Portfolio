@@ -25,7 +25,7 @@ export default function About({}: Props) {
             </p>
             
             <p className='xl:p-3 md:p-2 sm:p-1 sm:text-left'>
-              {"Throughout my academic journey, I\'ve developed strong programming skills and tackled complex challenges. At TC Energy, I improved data processing and streamlined workflows for the Project Systems & Tools team. My work at DorsalAI involved deploying a React-based website to facilitate 10K and 10Q report searches, enhancing my technical expertise. As a Teaching Assistant for Python, I supported students and optimized grading, contributing to a more effective learning environment."}
+              {"Throughout my academic journey, I have developed strong programming skills and tackled complex challenges. During my internships, I improved data processing and streamlined workflows for teams, as well as deployed a React-based website to facilitate report searches, enhancing my technical expertise. As a Teaching Assistant for Python, I supported students and optimized grading, contributing to a more effective learning environment."}
             </p>
 
             <p className='xl:p-3 md:p-2 sm:p-1 sm:text-left'>
@@ -33,7 +33,7 @@ export default function About({}: Props) {
             </p>
 
             <p className='xl:p-3 md:p-2 sm:p-1 sm:text-left'>
-              {"I am currently seeking a new grad position where I can apply my skills and enthusiasm to drive meaningful contributions. Feel free to reach out to me via email - I look forward to connecting!"}
+              {"I am currently seeking a position where I can apply my skills and enthusiasm to drive meaningful contributions. Feel free to reach out to me via email - I look forward to connecting!"}
             </p>
         </div>
         

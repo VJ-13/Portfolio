@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { useRef, useState } from 'react'
 import { motion } from 'framer-motion'
+import { GrNext, GrPrevious } from "react-icons/gr";
 
 type Props = {}
 
@@ -89,56 +90,81 @@ function Projects({}: Props) {
         
     ]
 
+    const scrollRef = useRef<HTMLDivElement>(null); // Reference to the scrollable container
 
-  return (
-    <motion.div 
-        initial = {{opacity: 0}}
-        whileInView = {{opacity: 1}}
-        transition={{duration: 1.5}}
-        className='h-screen relative flex overflow-hidden flex-col text-left justify-evenly md:flex-row max-w-full mx-auto items-center z-0 '>
+    const handleNext = () => {
+        if (scrollRef.current) {
+            const scrollWidth = scrollRef.current.clientWidth;
+            scrollRef.current.scrollBy({ left: scrollWidth, behavior: 'smooth' });
+        }
+    }
 
-        {/* Title */}
-        <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl my-auto xl:top-24 lg:top-24 md:top-20 sm:top-[80px] '>Projects</h3>
-        <h3 className='absolute top-36 uppercase tracking-[3px] text-[#00B8EA]/80 text-sm xl:top-36 lg:top-36 md:top-[120px] sm:top-[115px]'>Scroll for more projects </h3>
+    const handlePrevious = () => {
+        if (scrollRef.current) {
+            const scrollWidth = scrollRef.current.clientWidth;
+            scrollRef.current.scrollBy({ left: -scrollWidth, behavior: 'smooth' });
+        }
+    }
 
-        <div className=' w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 pt-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#00B8EA]/80'>
-            {/* Project Cards */}
-            {
-                projects.map(({id, src, name, description, codeLink, demoLink}) => (
-                    <div key={id} className='w-screen flex-shrink-0 snap-center flex flex-col spaces-y-5 items-center justify-center p-20 md:p-50 sm:p-5  max-h-screen '>
-                    <motion.img 
-                        initial = {{y: -300, opacity: 0}}
-                        transition={{duration: 1.5}}
-                        whileInView={{y: 0, opacity: 1}}
-                        viewport={{once: true}}
-                        src={src} alt="" className='h-60 w-120 shadow-lg shadow-[#00B8EA]/20 rounded-lg'/>
-                    <div className='space-y-10 px-0 md:px-10 max-w-6xl p-5 '>
-                        <h4 className='text-4xl font-medium text-center pt-2  '>{name}</h4>
-                        <p className='text-lg text-center sm:text-left md:text-left'> {description} </p>
-                    </div>
+    return (
+        <motion.div 
+            initial = {{opacity: 0}}
+            whileInView = {{opacity: 1}}
+            transition={{duration: 1.5}}
+            className='h-screen relative flex overflow-hidden flex-col text-left justify-evenly md:flex-row max-w-full mx-auto items-center z-0 '>
 
-                    {/* Button */}
-                    <div className='flex items-center justify-center '>
-                        <a href={demoLink}>
-                            <button className='projectButton'>Demo</button>
-                        </a>
-                        <a href={codeLink}>
-                            <button className='projectButton'>Code</button>
-                        </a>
-                    </div>
+            {/* Title */}
+            <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl my-auto xl:top-24 lg:top-24 md:top-20 sm:top-[80px] '>Projects</h3>
+            <h3 className='absolute top-36 uppercase tracking-[3px] text-[#00B8EA]/80 text-sm xl:top-36 lg:top-36 md:top-[120px] sm:top-[115px]'>Scroll for more projects </h3>
 
+            <div ref={scrollRef} className='w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 pt-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#00B8EA]/80'>
+                {/* Project Cards */}
+                {
+                    projects.map(({id, src, name, description, codeLink, demoLink}) => (
+                        <div key={id} className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-50 sm:p-5 max-h-screen'>
+                            <motion.img 
+                                initial = {{y: -300, opacity: 0}}
+                                transition={{duration: 1.5}}
+                                whileInView={{y: 0, opacity: 1}}
+                                viewport={{once: true}}
+                                src={src} alt="" className='h-60 w-120 shadow-lg shadow-[#00B8EA]/20 rounded-lg'/>
+                            <div className='space-y-10 px-0 md:px-10 max-w-6xl p-5'>
+                                <h4 className='text-4xl font-medium text-center pt-2'>{name}</h4>
+                                <p className='text-lg text-center sm:text-left md:text-left'>{description}</p>
+                            </div>
 
-                </div>
-                ))
-            }
-            
-        </div>
+                            {/* Buttons for demo, code */}
+                            <div className='flex items-center justify-center space-x-4'>
+                                <a href={demoLink}>
+                                    <button className='projectButton'>Demo</button>
+                                </a>
+                                <a href={codeLink}>
+                                    <button className='projectButton'>Code</button>
+                                </a>
+                            </div>
+                        </div>
+                    ))
+                }
+            </div>
 
+            {/* Previous Button on the Left */}
+            <div className='absolute left-5 top-1/2 transform -translate-y-1/2 z-30'>
+                <button onClick={handlePrevious} className='text-xl font-bold flex items-center p-3 bg-[#00B8EA]/80 text-white rounded-full shadow-lg'>
+                    <GrPrevious />
+                </button>
+            </div>
 
-        {/* Background */}
-        <div className='w-full absolute top-[30%] bg-[#00B8EA]/5 left-0 h-[500px] -skew-y-12 ' />
-    </motion.div>
-  )
-} 
+            {/* Next Button on the Right */}
+            <div className='absolute right-5 top-1/2 transform -translate-y-1/2 z-30'>
+                <button onClick={handleNext} className='text-xl font-bold flex items-center p-3 bg-[#00B8EA]/80 text-white rounded-full shadow-lg'>
+                    <GrNext />
+                </button>
+            </div>
 
-export default Projects
+            {/* Background */}
+            <div className='w-full absolute top-[30%] bg-[#00B8EA]/5 left-0 h-[500px] -skew-y-12' />
+        </motion.div>
+    )
+}
+
+export default Projects;

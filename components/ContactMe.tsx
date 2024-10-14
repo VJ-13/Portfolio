@@ -31,11 +31,6 @@ function ContactMe({}: Props) {
                 <p className='text-2xl'>vsjethra13@gmail.com</p>
             </div>
 
-            <div className='flex items-center space-x-5 justify-center '>
-                <MapPinIcon className='text-[#00B8EA] h-7 w-7 animate-pulse'/>
-                <p className='text-2xl'>Brampton, ON</p>
-            </div>
-
             <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col space-y-2 w-fit mx-auto'>
                 <div className='flex space-x-2'>
                     <input {...register('name')} placeholder='Name' className='contactInput' type="text" />
