@@ -26,15 +26,6 @@ export default function Header({ }: Props) {
                         <SocialIcon url="https://github.com/VJ-13" fgColor='gray' bgColor='transparent' className='hover:scale-105' target="_blank" rel="noopener noreferrer"/>
                     </IconButton>
                 </Tooltip>
-
-                <Tooltip title="Resume" arrow enterDelay={500} leaveDelay={200}>
-                    <IconButton>
-                        <a href="/resume.pdf" download={true}>
-                        <ContactPageOutlinedIcon sx={{ color: grey[600], fontSize: 30 }} className='hover:scale-105'/>
-                        </a>
-                    </IconButton>
-                </Tooltip>
-                
             </motion.div>
 
             <motion.div
